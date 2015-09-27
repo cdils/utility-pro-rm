@@ -1666,6 +1666,13 @@ Site Header
     width: 100%;
   }
 }
+@media screen and (min-width: 1023px) {
+  .header-widget-area .search-form {
+    float:right;
+    margin-top:0;
+    width:40%
+  }
+}
 
 .header-widget-area .genesis-nav-menu a {
   color: #000;
@@ -2049,10 +2056,12 @@ Content Area
   margin-bottom: 30px;
 }
 
+.pagination ul li,
 .pagination .nav-links {
   display: inline;
 }
 
+.pagination ul li a,
 .pagination .nav-links a,
 .pagination .nav-links .current {
   background: #1c1c1c;
@@ -2063,17 +2072,24 @@ Content Area
   padding: 8px 12px;
 }
 
+.pagination ul li a:hover,
 .pagination .nav-links a:hover {
   background: #fff;
   border: 1px solid #1c1c1c;
   color: #1c1c1c;
 }
 
+.pagination ul li.active a,
 .pagination .nav-links .current {
   background: #545454;
   border: 1px solid #fff;
   color: #fff;
   cursor: none;
+  padding: 8px 12px;
+}
+
+.pagination .pagination-next {
+  display: none;
 }
 
 .entry-pagination {
