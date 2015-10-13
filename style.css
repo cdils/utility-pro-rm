@@ -1526,6 +1526,18 @@ li a .fa {
   border-top: 5px solid #fff;
 }
 
+/* After Entry widget
+--------------------------------------------- */
+.after-entry .widget.enews-widget {
+  background-color: #1c1c1c;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.after-entry .enews-widget .widgettitle {
+  margin: 10px 0 24px;
+}
+
 /* ## Gravity Forms
 --------------------------------------------- */
 div.gform_wrapper input[type="email"],
