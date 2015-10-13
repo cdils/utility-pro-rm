@@ -46,6 +46,7 @@
 		- Better Font Awesome
 		- Genesis eNews Extended
 		- Gravity Forms
+		- Ninja Forms
 		- Jetpack
 	- Site Header
 		- Title Area
@@ -1566,6 +1567,12 @@ div.gform_wrapper form li {
 div.gform_wrapper input:focus,
 div.gform_wrapper textarea:focus {
   outline: 1px dotted #a1a1a1;
+}
+
+/* Ninja Forms  
+--------------------------------------------- */
+.ninja-forms-form input[type="submit"]{
+    width: 100%;
 }
 
 /* ## Jetpack
