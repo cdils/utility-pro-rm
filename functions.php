@@ -126,7 +126,14 @@ function utility_pro_setup() {
 
 	// Apply search form enhancements (accessibility)
 	add_filter( 'get_search_form', 'utility_pro_get_search_form', 25 );
+	
+	//* Add support for after entry widget - gsc
+	add_theme_support( 'genesis-after-entry-widget-area' );
 
+	//* Relocate after entry widget in case author box is used, this would show first - gsc
+	remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
+	add_action( 'genesis_after_entry', 'genesis_after_entry_widget_area', 5 );
+	
 }
 
 /**

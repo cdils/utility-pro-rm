@@ -46,6 +46,7 @@
 		- Better Font Awesome
 		- Genesis eNews Extended
 		- Gravity Forms
+		- Ninja Forms
 		- Jetpack
 	- Site Header
 		- Title Area
@@ -1526,6 +1527,18 @@ li a .fa {
   border-top: 5px solid #fff;
 }
 
+/* After Entry widget
+--------------------------------------------- */
+.after-entry .widget.enews-widget {
+  background-color: #1c1c1c;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.after-entry .enews-widget .widgettitle {
+  margin: 10px 0 24px;
+}
+
 /* ## Gravity Forms
 --------------------------------------------- */
 div.gform_wrapper input[type="email"],
@@ -1554,6 +1567,12 @@ div.gform_wrapper form li {
 div.gform_wrapper input:focus,
 div.gform_wrapper textarea:focus {
   outline: 1px dotted #a1a1a1;
+}
+
+/* Ninja Forms  
+--------------------------------------------- */
+.ninja-forms-form input[type="submit"]{
+    width: 100%;
 }
 
 /* ## Jetpack
